@@ -1,0 +1,25 @@
+{
+    "name": "thies4321/subrip",
+    "type": "standard",
+    "description": "PHP library for parsing, modifying and composing SubRip (.srt) subtitles",
+    "homepage": "https://github.com/thies4321/subrip",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SubRip\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SubRip\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10",
+        "psy/psysh": "^0.11.18",
+        "phpstan/phpstan": "^1.10"
+    }
+}
